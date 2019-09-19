@@ -1,0 +1,10 @@
+Rule 1
+Given: a segment in the mileage allocation table with an overlap code of 'P'
+Then: That segment must exist in the county table
+
+Rule 2
+Given: a segment in the mileage allocation table with an overlap code of 'S'
+Then: That segment must NOT exist in the County table
+
+Rule 3:
+There should be no segments in the county table that is NOT in the Mileage Allocation table
